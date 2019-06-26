@@ -42,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void changeColors(Color color) {
     this.setState(() {
       FlutterStatusbarcolor.setStatusBarColor(color);
+      FlutterStatusbarcolor.setNavigationBarColor(color);
       barColor = color;
     });
   }
